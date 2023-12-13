@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+:root {
+    --color-primary: #0c0c0c;
+    --color-white: #ffff;
+    --color-third: #6880FF;
+    --font-primary: Inter, sans-serif;
+    --font-secundary: Poppins, sans-serif;
+}

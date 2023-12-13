@@ -1,0 +1,59 @@
+.banner-section-div {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    background-color: var(--color-primary);
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-div-list {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.banner-name {
+    color: var(--color-third);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.welcome-portfolio {
+    color: var(--color-white);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    width: 200px;
+    padding-block: 20px;
+}
+
+.phrase-banner {
+    color: var(--color-white);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 400px;
+    line-height: 20px;
+}
+
+.know-more {
+    color: var(--color-white);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--color-third);
+    padding: 0.5rem 1.2rem;
+    margin-block: 20px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.banner-img {
+    width: 437.792px;
+    height: 265.656px;
+    background-color: var(--color-primary);
+}
