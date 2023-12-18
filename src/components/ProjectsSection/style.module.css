@@ -1,10 +1,10 @@
-.projects-div1 {
+.projectsDiv1 {
     background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
 }
 
-.projects-ul {
+.projectsUl {
     padding-left: 200px ;
     padding-bottom: 150px;
     background-color: var(--color-primary);
@@ -15,7 +15,7 @@
     justify-content: space-between;
 }
 
-.projects-li {
+.projectsLi {
     color: var(--color-white);
     border-radius: 25px;
     margin-bottom: 15px;
@@ -26,7 +26,7 @@
     border-radius: 20px;
 }
 
-.projects-title {
+.projectsTitle {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 30px;
@@ -35,14 +35,14 @@
     padding-left: 190px;
 }
 
-.projects-title1 {
+.projectsTitle1 {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 22px;
     font-weight: 800;
 }
 
-.project-paragraph {
+.projectParagraph {
     padding-block: 10px;
     color: #FFF;
     font-family: Inter, sans-serif;
@@ -51,12 +51,12 @@
     line-height: 30px;
 }
 
-.projects-div {
+.projectsDiv {
     display: flex;
     justify-content: space-between;
 }
 
-.project-link {
+.projectLink {
     border: none;
     color: #6880FF;
 }

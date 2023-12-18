@@ -7,7 +7,6 @@ import { Techsection } from "./components/TechSection"
 import { ProjectsSection } from "./components/ProjectsSection"
 import { Footer } from "./components/Footer"
 
-
 function App() {
 
   return (

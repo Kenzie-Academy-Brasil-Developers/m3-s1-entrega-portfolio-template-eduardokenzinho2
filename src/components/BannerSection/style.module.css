@@ -1,4 +1,4 @@
-.banner-section-div {
+.bannersectionDiv {
     display: flex;
     justify-content: center;
     gap: 250px;
@@ -6,32 +6,33 @@
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
-.banner-div-list {
+.bannerdivList {
     display: flex;
     flex-direction: column;
     color: var(--color-white);
     background-color: var(--color-primary);
 }
 
-.banner-name {
+.bannerName {
     color: var(--color-third);
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
 }
 
-.welcome-portfolio {
+.welcomePortfolio {
     color: var(--color-white);
     font-family: Inter;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 800;
-    width: 200px;
+    width: 300px;
     padding-block: 20px;
 }
 
-.phrase-banner {
+.phraseBanner {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 14px;
@@ -40,7 +41,7 @@
     line-height: 20px;
 }
 
-.know-more {
+.knowMore {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 14px;
@@ -50,9 +51,10 @@
     margin-block: 20px;
     width: 120px;
     border-radius: 10px;
+    border: none;
 }
 
-.banner-img {
+.bannerImg {
     width: 437.792px;
     height: 265.656px;
     background-color: var(--color-primary);

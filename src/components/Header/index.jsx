@@ -1,16 +1,15 @@
-import "../../styles/globalStyles.css"
-import "../Header/style.css"
+import "../Header/style.module.css"
 import Portfolio from "../../assets/portfolio.png"
 export const Header = () => {
     return (
-        <div className="headerclass">
-            <img className="portfolio-img" src={Portfolio} alt="portfolio" />
-            <div className="header-div-list">
+        <div className={styles.headerClass}>
+            <img className={styles.portfolioImg} src={Portfolio} alt="portfolio" />
+            <div className={styles.headerdivList}>
                 <p>Sobre</p>
                 <p>Stack</p>
                 <p>Projetos</p>
             </div>
-            <button className="button-contact">Contato</button>
+            <button className={styles.buttonContact}>Contato</button>
         </div>
     )
 }

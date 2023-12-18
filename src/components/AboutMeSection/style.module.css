@@ -1,4 +1,4 @@
-.aboutme-div {
+.aboutmeDiv {
     display: flex;
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -9,14 +9,14 @@
     padding-top: 100px;
 }
 
-.aboutme-title {
+.aboutmeTitle {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 30px;
     font-weight: 600;
 }
 
-.aboutme-paragraph {
+.aboutmeParagraph {
     width: 800px;
     color: var(--color-white);
     font-family: Inter;

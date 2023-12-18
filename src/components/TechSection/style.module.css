@@ -1,4 +1,4 @@
-.techsection-list {
+.techsectionList {
     display: flex;
     color: var(--color-white);
     background-color: var(--color-primary);
@@ -8,7 +8,7 @@
     margin-left: 200px;
 }
 
-.tech-paragraph {
+.techParagraph {
     color: var(--color-white);
     background-color: var(--color-primary);
     font-family: Inter, sans-serif;
@@ -18,7 +18,7 @@
     margin-left: 180px;
 }
 
-.tech-div {
+.techDiv {
     display: flex;
     background-color: var(--color-primary);
     flex-direction: column;
@@ -29,7 +29,7 @@
     height: 300px;
 }
 
-.tech-li {
+.techLi {
     border: solid 2px;
     display: flex;
     padding: 20px 35px ;
@@ -42,7 +42,7 @@
     border: 2px solid rgba(255, 255, 255, 0.50);
 }
 
-.tech-name {
+.techName {
     color: var(--color-white);
     font-family: Inter, sans-serif;
     font-size: 20px;

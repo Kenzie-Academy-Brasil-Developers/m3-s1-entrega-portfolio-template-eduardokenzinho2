@@ -1,26 +1,26 @@
-.footer-ul {
+.footerUl {
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%;
     height: 200px;
-    border-top: 1px solid #FFF;
-    border-bottom: 1px solid #FFF;
+    border-top: 1px solid var(--color-white);
+    border-bottom: 1px solid var(--color-white);
 }
 
-.footer-li {
+.footerLi {
     color: var(--color-white);
 }
 
-.contact-footer {
-    color: #FFF;
+.contactFooter {
+    color: var(--color-white);
     font-family: Inter;
     font-size: 30px;
     font-weight: 800;
 }
 
-.rights-li {
+.rightsLi {
     color: var(--color-white);
     text-align: right;
     font-family: Inter;
@@ -28,16 +28,16 @@
     font-weight: 400;
 }
 
-.footer-icon {
+.footerIcon {
     padding-top: 10px;
     gap: 20px;
 }
 
-.icon-img {
+.iconImg {
     padding: 5px;
 }
 
-.footer-div {
+.footerDiv {
     display: flex;
     justify-content: center;
     background-color: var(--color-primary);

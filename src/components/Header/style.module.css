@@ -1,4 +1,4 @@
-.headerclass {
+.headerClass {
     display: flex;
     justify-content: space-around;
     color: var(--color-white);
@@ -6,13 +6,13 @@
     align-items: center;
 }
 
-.portfolio-img {
+.portfolioImg {
     width: 4rem;
     height: 0.8rem;
     padding: 1rem;
 }
 
-.header-div-list {
+.headerdivList {
     font-family: Inter, sans-serif;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     font-size: 14px;
 }
 
-.button-contact {
+.buttonContact {
     font-family: Inter, sans-serif;
     border-radius: 10px;
     padding: 0.5rem 1.2rem;
@@ -29,4 +29,5 @@
     background-color: #6880FF;
     font-size: 14px;
     font-weight: 400;
+    border: none;
 }
