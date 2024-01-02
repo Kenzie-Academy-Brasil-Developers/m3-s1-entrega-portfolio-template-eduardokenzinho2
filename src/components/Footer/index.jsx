@@ -1,4 +1,4 @@
-import "../Footer/style.module.css"
+import styles from "../Footer/style.module.css"
 import whatsappicon from "../../assets/whatsapp-icon.png"
 import linkedinicon from "../../assets/linkedin-icon.png"
 import githubicon from "../../assets/github-icon.png"

@@ -1,4 +1,4 @@
-import "../ProjectsSection/style.module.css"
+import styles from "../ProjectsSection/style.module.css"
 import githubicon from "../../assets/git-icon.png"
 export const ProjectsSection = () => {
     return (

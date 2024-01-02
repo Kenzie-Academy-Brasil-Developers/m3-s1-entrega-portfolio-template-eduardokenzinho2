@@ -1,4 +1,4 @@
-import "../TechSection/style.module.css"
+import styles from "../TechSection/style.module.css"
 import htmlimg from "../../assets/html-icon.png"
 import cssimg from "../../assets/css-icon.png"
 import jsimg from "../../assets/js-icon.png"
@@ -7,7 +7,7 @@ export const Techsection = () => {
     return (
         <div className={styles.techDiv}> 
           <p className={styles.techParagraph}>Tecnologias</p>
-          <ul className={styles.techsectionList}>
+          <ul className={styles.techSectionList}>
             <li className={styles.techLi}>
                 <img src={htmlimg} alt="icon_html" />
                 <p className={styles.techName}>HTML</p>

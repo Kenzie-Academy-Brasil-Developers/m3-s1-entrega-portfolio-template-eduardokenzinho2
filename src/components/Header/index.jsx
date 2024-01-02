@@ -1,10 +1,10 @@
-import "../Header/style.module.css"
+import styles from "../Header/style.module.css"
 import Portfolio from "../../assets/portfolio.png"
 export const Header = () => {
     return (
         <div className={styles.headerClass}>
             <img className={styles.portfolioImg} src={Portfolio} alt="portfolio" />
-            <div className={styles.headerdivList}>
+            <div className={styles.headerDivList}>
                 <p>Sobre</p>
                 <p>Stack</p>
                 <p>Projetos</p>

@@ -1,4 +1,4 @@
-.bannersectionDiv {
+.bannerSectionDiv {
     display: flex;
     justify-content: center;
     gap: 250px;
@@ -9,7 +9,7 @@
     padding-top: 40px;
 }
 
-.bannerdivList {
+.bannerDivList {
     display: flex;
     flex-direction: column;
     color: var(--color-white);
@@ -35,7 +35,7 @@
 .phraseBanner {
     color: var(--color-white);
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     width: 400px;
     line-height: 20px;
