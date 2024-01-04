@@ -1,0 +1,29 @@
+.techSectionList {
+    display: flex;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    width: 72%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.techLi {
+    border: solid 2px;
+    display: flex;
+    padding: 20px 35px ;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 31.5%;
+    gap: 20px;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.50);
+}
+
+.techName {
+    color: var(--color-white);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
