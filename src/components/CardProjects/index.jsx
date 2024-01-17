@@ -1,8 +1,7 @@
 import icongit from "../../assets/git-icon.png"
-import { projects } from "../../data/projects"
 import styles from "./style.module.css"
 
-export const CardProjects = () => {
+export const CardProjects = ({projects}) => {
     return (
         <>
             <ul className={styles.projectsUl}>
@@ -18,6 +17,5 @@ export const CardProjects = () => {
                 ))}
             </ul>
         </>
-
     )
 }
